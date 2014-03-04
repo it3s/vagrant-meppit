@@ -7,7 +7,7 @@ then
   apt-get upgrade -y
 
   # Install dependencies
-  apt-get install -y git ruby2.0 ruby2.0-dev redis-server postgresql-9.1 postgresql-server-dev-9.1 libpq-dev postgis nodejs
+  apt-get install -y git ruby2.0 ruby2.0-dev redis-server postgresql-9.1 postgresql-server-dev-9.1 libpq-dev postgis nodejs libxslt1.1
   gem install bundler
 
   # Create postgres user
