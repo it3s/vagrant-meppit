@@ -10,19 +10,7 @@ then
   apt-get install -y git ruby2.0 ruby2.0-dev redis-server postgresql-9.1 postgresql-contrib-9.1 postgresql-server-dev-9.1 libpq-dev nodejs libxslt1.1 imagemagick build-essential libtool checkinstall libjson0-dev libxml2-dev libproj-dev python2.7-dev swig libgeos-3.3.3 libgeos-dev gdal-bin libgdal1-1.9.0-grass libgdal1-dev
 
   # ========================
-  # compile postgis and its dependecies
-  # cd /home/vagrant/
-
-  # # download and compile gdal
-  # cd /home/vagrant/src/
-  # wget http://download.osgeo.org/gdal/1.10.0/gdal-1.10.0.tar.gz
-  # tar xvzf gdal-1.10.0.tar.gz
-  # cd gdal-1.10.0/
-  # ./configure
-  # make
-  # make install
-
-  # # download and compile postgis
+  # compile postgis
   cd /home/vagrant/
   wget http://download.osgeo.org/postgis/source/postgis-2.0.3.tar.gz
   tar xzf postgis-2.0.3.tar.gz
